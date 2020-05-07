@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CarDiary</string>
+    <string name="your_car_diary">Your car diary</string>
+    <string name="edit_your_car_info">Edit your car info</string>
+    <string name="edit_your_personal_info">Edit your personal info</string>
+    <string name="enter_your_car_details">Enter your car details</string>
+    <string name="enter_next_refuel">Enter next refuel</string>
+    <string name="results">Results</string>
+    <string name="options">Options</string>
+</resources>
