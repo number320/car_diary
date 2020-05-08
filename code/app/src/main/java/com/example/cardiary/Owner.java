@@ -8,8 +8,12 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
+import java.util.ArrayList;
+
 public class Owner extends AppCompatActivity {
-    private String name, mail;
+    public static String name;
+    public static String mail;
+    //private ArrayList listOfCars;
     private EditText addName;
     private EditText addMail;
     private Button vehicleInfo;
@@ -22,6 +26,15 @@ public class Owner extends AppCompatActivity {
         setContentView(R.layout.activity_owner);
 
         setupUIViews();
+
+        save.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                name = addName.getText().toString();
+                mail = addMail.getText().toString();
+
+            }
+        });
 
         vehicleInfo.setOnClickListener(new View.OnClickListener() {
             @Override

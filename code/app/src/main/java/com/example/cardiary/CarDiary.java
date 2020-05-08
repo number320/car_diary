@@ -6,8 +6,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class CarDiary extends AppCompatActivity {
+    private TextView nameView;
     private Button ownerInfo;
     private Button vehicleInfo;
     private Button refuelInfo;
@@ -60,13 +62,29 @@ public class CarDiary extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        if(Owner.name == null){
+            nameView.setText("Your car diary");
+        }
+        else{
+            nameView.setText(toString());
+        }
     }
 
     private void setupUIViews(){
+        nameView = findViewById(R.id.mainTitle);
         ownerInfo = findViewById(R.id.ownerInfoBtn);
         vehicleInfo = findViewById(R.id.carDetailsBtn);
         refuelInfo = findViewById(R.id.refuelInfoBtn);
         results = findViewById(R.id.resultBtn);
         options = findViewById(R.id.optionsBtn);
+    }
+
+    public String toString(){
+        StringBuilder strBuilder = new StringBuilder();
+        strBuilder.append(Owner.name);
+        strBuilder.append("'s car");
+
+        return strBuilder.toString();
     }
 }
