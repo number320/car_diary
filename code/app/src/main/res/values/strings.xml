@@ -7,4 +7,11 @@
     <string name="enter_next_refuel">Enter next refuel</string>
     <string name="results">Results</string>
     <string name="options">Options</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="edit_your_car_details">edit_your_car_details</string>
+    <string name="edti_car_details">Edti Car Details</string>
+    <string name="save">Save</string>
+    <string name="enter_your_name">Enter Your Name</string>
+    <string name="enter_your_e_mail">Enter your e-mail</string>
+    <string name="go_back">Go back</string>
 </resources>
