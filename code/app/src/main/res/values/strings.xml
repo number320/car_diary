@@ -14,4 +14,13 @@
     <string name="enter_your_name">Enter Your Name</string>
     <string name="enter_your_e_mail">Enter your e-mail</string>
     <string name="go_back">Go back</string>
+    <string name="welcome_to_your_car_diary">Welcome to your car diary!</string>
+    <string name="persona_information">Persona information:</string>
+    <string name="your_e_mail">Your e-mail</string>
+    <string name="your_name">Your name</string>
+    <string name="create_a_new_profil">Create a new profil</string>
+    <string name="create_a_new_profile">Create a new profile</string>
+    <string name="return_to_main_menu">Return to main menu</string>
+    <string name="e_mail">e-mail</string>
+    <string name="name">name</string>
 </resources>

@@ -9,11 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Results"></activity>
+        <activity android:name=".PopUp">
+             android: theme="@style/AppTheme.CustomeTheme"
+        </activity>
+        <activity android:name=".Results" />
         <activity android:name=".Options" />
         <activity android:name=".Refuel" />
         <activity android:name=".Vehicle" />
-        <activity android:name=".Owner" />
+        <activity android:name=".OwnerActivity" />
         <activity android:name=".CarDiary">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
